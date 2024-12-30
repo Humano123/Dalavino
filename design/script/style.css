@@ -1,0 +1,114 @@
+body {
+    animation: fundo 5s forwards;
+    transition: all 5s;
+}
+
+.neiste {
+    text-align: center;
+    animation: meio 2s forwards;
+}
+#dividir {
+    animation: mostrarHR 10s forwards;
+}
+.jack {
+    color: rgba(0, 0, 0, 0);
+}
+.jack:hover {
+    animation: aparecer 2s forwards;
+}
+#baixar {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    color: white;
+    animation: parecer 5s forwards;
+    border-radius: 5vh;
+    transition: all 0.2s;
+    transform: translateX(-500vh);
+    height: 250px;
+    width: 600px;
+    font-size: 200px;
+    scale: 0.5;
+    user-select: none;
+}
+
+#baixar:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2.5vh;
+    /* display: none; */
+}
+#baixarA {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    color: white;
+    animation: parecer 5s forwards;
+    border-radius: 5vh;
+    transition: all 0.2s;
+    transform: translateX(-500vh);
+    height: 250px;
+    width: 600px;
+    font-size: 200px;
+    scale: 0.5;
+    user-select: none;
+}
+
+#baixarA:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2.5vh;
+    /* display: none; */
+}
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+br {
+    user-select: none;
+}
+
+#vscode {
+    animation: mostrarVSC 5s forwards;
+    color: rgb(0, 119, 255);
+}
+
+#cpp {
+    animation: mostrarCPP 5s forwards;
+    color: rgb(44, 44, 181);
+}
+
+#tb {
+    animation: mostrarTB 5s forwards;
+    color: rgb(81, 255, 0);
+}
+
+#nomeApp {
+    color: brown;
+    animation: nomeApp 5s forwards;
+}
+
+#nomeKey {
+    color: burlywood;
+    animation: nomeKey 5s forwards;
+}
+
+#num {
+    color: aquamarine;
+    animation: num 5s forwards;
+}
+
+#circle {
+    width:  30vh;
+    height: 30vh;
+    border-radius: 10vh;
+}
+
+#circleA {
+    animation: animBOA 2s forwards;
+    border-radius: 10vh;
+}
