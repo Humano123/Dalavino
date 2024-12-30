@@ -73,6 +73,7 @@ int main() {
         cout << "Escolha uma opção:\n";
         cout << "1 - Ler arquivo\n";
         cout << "2 - Criar arquivo\n";
+        cout << "3 - Sair\n";
         cout << "Digite o número da opção desejada: ";
         
         int opcao;
@@ -87,7 +88,7 @@ int main() {
             transform(nome.begin(), nome.end(), nome.begin(), ::tolower);
 
             if (nome == "@sair" || nome == "@exit") {
-                cout << "Saindo do programa..." << endl;
+                cout << "Saindo..." << endl;
                 break;
             }
 
@@ -142,6 +143,9 @@ int main() {
             cout << "Digite a extensão do arquivo (ex: .txt, .md, etc): "; //sim
             cin >> ext;
             criarArquivo(nome, ext);
+        } else if (opcao == 3) {
+            cout << "Saindo..." << endl;
+            break;
         } else {
             cout << "Opção inválida. Tente novamente." << endl;
         }
