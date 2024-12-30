@@ -1,0 +1,140 @@
+@keyframes fundo {
+    0% {
+        background-color: rgb(150, 150, 150);
+        color: rgba(0, 128, 0, 0);
+    }
+    100% {
+        background-color: black;
+        color: white;
+    }
+}
+
+@keyframes meio {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes meioH {
+    0% {
+        border: 1px solid rgb(255, 255, 255);
+    }
+    100% {
+        border: 1px solid rgb(255, 255, 255);
+    }
+}
+
+@keyframes aparecer {
+    0% {
+        color: aliceblue;
+    }
+    100% {
+        color: aliceblue;
+    }
+}
+@keyframes parecer {
+    100% {
+        transform: translate(0);
+    }
+}
+@keyframes mostrarVSC {
+    0% {
+        color: rgba(240, 248, 255, 0);
+    }
+    100% {
+        color: rgb(0, 149, 255);
+    }
+}
+@keyframes mostrarCPP {
+    0% {
+        color: rgba(240, 248, 255, 0);
+    }
+    100% {
+        color: rgb(58, 75, 228);
+    }
+}
+@keyframes mostrarTB {
+    0% {
+        color: rgba(240, 248, 255, 0);
+    }
+    100% {
+        color: rgb(156, 146, 38);
+    }
+}
+@keyframes nomeApp {
+    0% {
+        color: rgba(240, 248, 255, 0);
+    }
+    100% {
+        color: brown;
+    }
+}
+@keyframes nomeKey {
+    0% {
+        color: rgba(240, 248, 255, 0);
+    }
+    100% {
+        color: burlywood;
+    }
+}
+@keyframes num {
+    0% {
+        color: rgba(240, 248, 255, 0);
+    }
+    100% {
+        color: aquamarine;
+    }
+}
+@keyframes mostrarHR {
+    0% {
+        border: 2px solid rgba(240, 248, 255, 0);
+    }
+    100% {
+        border: 2px solid white;
+    }
+}
+
+@keyframes animBOA {
+    0% {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateY(-550%) translateX(-50%);
+        background-color: rgb(0, 0, 0);
+    }
+    10% {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        background-color: rgb(0, 0, 0);
+    }
+    20% {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateY(-50%) translateX(-50%) rotateY(90deg);
+        background-color: rgb(0, 0, 0);
+    }
+    30% {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateY(-50%) translateX(-50%) rotateY(180deg);
+        background-color: rgb(0, 0, 0);
+    }
+    100% {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateY(-50%) translateX(-50%) rotateY(180deg);
+        background-color: rgba(0, 128, 0, 0);
+        background-image: url(neisteF.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        transform: translateY(-550%) translateX(-50%) rotateY(180deg);
+    }
+}
