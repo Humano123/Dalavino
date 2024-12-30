@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html id="all" lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,14 @@
     <link rel="stylesheet" href="design/script/keyframes.css">
     <link rel="stylesheet" href="design/script/fonts.css">
     <link rel="stylesheet" href="design/script/draw.css">
+    <link rel="stylesheet" href="design/script/media.css">
     <title id="title">Dalavino</title>
 </head>
+
 <body style="text-align: center; perspective: 800px;" id="body">
     <header>
-        <h1 class="neiste"> <b id="jackA" class="jack">(:</b> <b onclick="segredoDOIS()" id="segredo2">Dalav</b><b onclick="segredoUM()" id="segredo1">i</b>no <b id="jackB" class="jack">:)</b></h1>
+        <h1 class="neiste"> <b id="jackA" class="jack">(:</b> <b onclick="segredoDOIS()" id="segredo2">Dalav</b><b
+                onclick="segredoUM()" id="segredo1">i</b>no <b id="jackB" class="jack">:)</b></h1>
         <hr id="dividir">
     </header>
     <h3>Alô?</h3>
@@ -25,27 +29,55 @@
             <h1 id="assd">Esse arquivo não funciona para mobile >:(</h1>
         </div>
     </div>
-    <div id="resumo">
-        <h1>Sobre</h1>
-        <h4>Dalavino é uma ferramenta para mostrar o codigo fonte de um arquivo, nele existe uma verificação de virus, nem sempre ele acha o virus.</h4>
-        <h4>Dalvino tambem serve para criar arquivos, mas não é uma boa ideia usar pois ele buga ao usar caracteres invalidos ou com acentos.</h4>
-    </div>
-    <div id="inst">
-        <h1>Instruções</h1>
-        <h4>Para usar ele, coloque na mesma pasta/caminho do arquivo que você deseja, resumindo, se o arquivo que você quer estiver na area de trabalho, coloque o <b id="nomeApp">Dalavino.exe</b> na area de trabalho.</h4>
-        <h4>Se você quiser criar arquivos, digite <b id="num">2</b>, caso quiser ler um arquivo, digite <b id="num">1</b>.</h4>
-        <h4>Se quiser sair do app, digite <b id="nomeKey">3</b>.</h4>
-        <h4>Se quiser para de editar/adicionar textos no arquivo, digite <b id="nomeKey">@fim</b>.</h4>
-        <h4>Não coloque acentos ou caracteres desconhecidos quando for criar, pois por algum motivo, ele irá substituir por um caractere especial.</h4>
+    <div id="geralt">
+        <div id="gerall">
+            <div id="resumo">
+                <h1>Sobre</h1>
+                <hr>
+                <h4>Dalavino é uma ferramenta para mostrar o codigo fonte de um arquivo, nele existe uma verificação de
+                    virus, nem sempre ele acha o virus.</h4>
+                <h4>Dalavino tambem serve para criar arquivos, mas não é uma boa ideia usar pois ele buga ao usar
+                    caracteres invalidos ou com acentos.</h4>
+            </div>
+        </div>
+        <div id="gerall">
+            <div id="aviso">
+                <h1>Formatos de arquivos</h1>
+                <hr>
+                <h3><b id="verde">VERDE</b> - Lê</h3>
+                <h3><b id="vermelho">VERMELHO</b> - Não lê</h3>
+                <h4 id="verde">.txt, .csv, .json, .xml, .ini, .log, .html, .htm, .cpp, .h, .java, .py, .bin, .dat, .yml,
+                    .yaml, .obj, .wav, .bmp, etc</h4>
+                <h4 id="vermelho">.pdf, .doc, .docx, .xls, .xlsx, .ppt, .pptx, .mp3, .mp4, .avi, .mkv, .jpg, .jpeg,
+                    .png, .gif, .tiff, .zip, .rar, .7z, .exe, .dll, .iso, etc</h4>
+            </div>
+        </div>
+        <div id="gerall">
+            <div id="inst">
+                <h1>Instruções</h1>
+                <hr>
+                <h4>Para usar ele, coloque na mesma pasta/caminho do arquivo que você deseja, resumindo, se o arquivo
+                    que você quer estiver na area de trabalho, coloque o <b id="nomeApp">Dalavino.exe</b> na area de
+                    trabalho.</h4>
+                <h4>Se você quiser criar arquivos, digite <b id="num">2</b>, caso quiser ler um arquivo, digite <b
+                        id="num">1</b>.</h4>
+                <h4>Se quiser sair do app, digite <b id="nomeKey">3</b>.</h4>
+                <h4>Se quiser parar de editar/adicionar textos no arquivo, digite <b id="nomeKey">@fim</b>.</h4>
+                <h4>Não coloque acentos ou caracteres desconhecidos quando for criar, pois por algum motivo, ele irá
+                    substituir por um caractere especial.</h4>
+            </div>
+        </div>
     </div>
     <br>
     <div id="footer">
         <h4 id="elemento1">IDE: <b id="vscode">Visual Studio Code</b></h4>
-        <h4 id="elemento2">Linguagem De Porgramação: <b id="cpp">C++</b></h4>
+        <h4 id="elemento2">Linguagem De Programação: <b id="cpp">C++</b></h4>
         <h4 id="elemento3">Criador: <b id="tb">Thiago Bel</b></h4>
     </div>
-    <div id="circleA"><div id="circle"></div></div>
-    
+    <div id="circleA">
+        <div id="circle"></div>
+    </div>
+
     <!-- <img id="print" src="design/images/print.png" alt="Print"> -->
     <!-- <div id="draw">
         <h1>Dalavino</h1>
@@ -67,4 +99,5 @@
     <script src="scripts/secrets/segredinhos.js"></script>
     <script src="scripts/download/script.js"></script>
 </body>
+
 </html>
