@@ -7,7 +7,7 @@ body {
     text-align: center;
     animation: meio 2s forwards;
 }
-#dividir {
+hr {
     animation: mostrarHR 10s forwards;
 }
 .jack {
@@ -121,11 +121,26 @@ br {
 }
 
 #gerall {
+    animation: aparecerBORDA 5s forwards;
     width: 300px;
     height: 200px;
     border: 2px solid white;
     overflow-y: auto;
     padding: 10px;
+}
+
+#gerall::-webkit-scrollbar {
+    width: 10px;
+}
+#gerall::-webkit-scrollbar-track {
+    animation: aparecerPRETOf 5s forwards;
+    background-color: #00000000;
+    border-radius: 10px;
+}
+#gerall::-webkit-scrollbar-thumb {
+    animation: aparecerBRANCOf 5s forwards;
+    background-color: #ffffff59;
+    border-radius: 10px;
 }
 
 #geralt {
