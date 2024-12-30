@@ -147,7 +147,8 @@ int main() {
             cout << "Saindo..." << endl;
             break;
         } else {
-            cout << "Opção inválida. Tente novamente." << endl;
+            cout << "Opção inválida. Tente novamente.";
+            break;
         }
     }
 
