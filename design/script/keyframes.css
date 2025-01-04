@@ -180,3 +180,23 @@
         border: 2px solid rgb(255, 255, 255);
     }
 }
+@keyframes aparecerIN {
+    0% {
+        background-color: rgba(0, 0, 0, 0);
+        border: 2px solid rgba(255, 255, 255, 0);
+        color: rgba(255, 255, 255, 0);
+    }
+    100% {
+        /* background-color: rgb(0, 0, 0); */
+        /* border: 2px solid white; */
+        /* color: white; */
+    }
+}
+@keyframes aparecerBLUE {
+    0% {
+        color: rgba(165, 42, 42, 0);
+    }
+    100% {
+
+    }
+}

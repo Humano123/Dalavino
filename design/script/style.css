@@ -7,7 +7,7 @@ body {
     text-align: center;
     animation: meio 2s forwards;
 }
-hr {
+.hr {
     animation: mostrarHR 10s forwards;
 }
 .jack {
@@ -32,6 +32,25 @@ hr {
 }
 
 #baixar:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2.5vh;
+    /* display: none; */
+}
+#baixarI {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    color: white;
+    animation: aparecerIN 5s forwards;
+    border-radius: 5vh;
+    transition: all 0.2s;
+    user-select: none;
+    font-size: 25px;
+}
+
+#baixarI:hover {
     cursor: pointer;
     background-color: white;
     color: black;
@@ -146,4 +165,34 @@ br {
 #geralt {
     display: flex;
     justify-content: space-around;
+}
+
+#classI {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+#dentu {
+    border: 2px solid white;
+    animation: aparecerBORDA 5s forwards;
+    width: 150px;
+    height: 140px;
+}
+
+#allu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#dHR {
+    border: 0.5px solid white;
+}
+
+.linksApp {
+    animation: aparecerBLUE 5s forwards;
+}
+
+.linksApp:visited {
+    color: rgb(112, 112, 112);
 }

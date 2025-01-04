@@ -1,0 +1,16 @@
+.linksApp {
+    position: relative;
+    display: inline-block;
+}
+
+.linksApp::after {
+    content: ">";
+    position: absolute;
+    left: -20px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.linksApp:hover::after {
+    opacity: 1;
+}
