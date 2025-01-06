@@ -56,6 +56,7 @@ int main() {
     string saudacao = "Oii\nBem-Vindo(a) ao Dalavino, um mostrador de arquivos.\nResumindo: Esse aplicativo mostra o código/texto dentro do arquivo que você escolher ou cria um novo arquivo!\n";
 
     cout << saudacao;
+    cout << "\n Versão: 1.2";
 
     exibirTermosDeUso();
 
@@ -121,7 +122,13 @@ int main() {
                             "spyware", "invadir", "derrubar", "rastrear", "explodir", "excluir", "remove",
                             "destroy", "shutdown", "del", "fake", "falso", "ad", "anuncio", "block", "blocked",
                             "bloquear", "guardar", "ameaça", "ameaçar", "iniciar", "reset", "rd", "copy", "crypto",
-                            "format", "formata", "inutilizar", "false"
+                            "format", "formata", "inutilizar", "false", "exec", "eval", "system", "os.system", "subprocess",
+                            "popen", "cmd.exe", "/bin/bash", "PowerShell", "base64_decode", "rot13", "str_rot13", "gzinflate",
+                            "gzdecode", "unserialize", "decode", "wget", "curl", "ftp", "sftp", "http.get", "socket", "connect",
+                            "bind", "payload", "chmod", "chown", "unlink", "rm -rf", "fopen", "read", "write", "keylogger",
+                            "reverse_shell", "trojan", "virus", "spyware", "ransomware", "encrypt", "decrypt", "AES", "RSA",
+                            "blowfish", "hash", "md5", "sha1", "sha256", "http://", "https://", "regedit", "Taskkill",
+                            "netstat", "schtasks", "cron", "sudo", "iptables", "killall"
                         };
                         for (const auto& palavra : palavrasChave) {
                             if (linha.find(palavra) != string::npos) valor++;

@@ -55,6 +55,7 @@ int main() {
     string saudacao = "Hola\nBienvenido a DalavinoES, un visor de archivos.\nEn resumen: ¡Esta aplicación muestra el código/texto dentro del archivo que elijas o crea un nuevo archivo!\n";
 
     cout << saudacao;
+    cout << "\n versión: 1.2";
 
     exibirTermosDeUso();
 

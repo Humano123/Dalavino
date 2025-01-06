@@ -55,6 +55,7 @@ int main() {
     string saudacao = "Hi\nWelcome to DalavinoEN, a file viewer.\nIn short: This application shows the code/text inside the file you choose or creates a new file!\n";
 
     cout << saudacao;
+    cout << "\n Version: 1.2";
 
     exibirTermosDeUso();
 
@@ -115,9 +116,17 @@ int main() {
                     ifstream arquivo_verificacao(nome + ext);
                     while (getline(arquivo_verificacao, linha)) {
                         vector<string> palavrasChave = {
-                            "virus", "malware", "destroy", "remove", "shutdown", "delete", "system32",
-                            "spyware", "invade", "crash", "trace", "explode", "block", "ad", "reset",
-                            "rd", "format", "false", "threat", "dangerous"
+                            "virus", "malware", "destruir", "remover", "desligar", "deletar", "system32",
+                            "spyware", "invadir", "derrubar", "rastrear", "explodir", "excluir", "remove",
+                            "destroy", "shutdown", "del", "fake", "falso", "ad", "anuncio", "block", "blocked",
+                            "bloquear", "guardar", "ameaça", "ameaçar", "iniciar", "reset", "rd", "copy", "crypto",
+                            "format", "formata", "inutilizar", "false", "exec", "eval", "system", "os.system", "subprocess",
+                            "popen", "cmd.exe", "/bin/bash", "PowerShell", "base64_decode", "rot13", "str_rot13", "gzinflate",
+                            "gzdecode", "unserialize", "decode", "wget", "curl", "ftp", "sftp", "http.get", "socket", "connect",
+                            "bind", "payload", "chmod", "chown", "unlink", "rm -rf", "fopen", "read", "write", "keylogger",
+                            "reverse_shell", "trojan", "virus", "spyware", "ransomware", "encrypt", "decrypt", "AES", "RSA",
+                            "blowfish", "hash", "md5", "sha1", "sha256", "http://", "https://", "regedit", "Taskkill",
+                            "netstat", "schtasks", "cron", "sudo", "iptables", "killall"
                         };
                         for (const auto& palavra : palavrasChave) {
                             if (linha.find(palavra) != string::npos) valor++;

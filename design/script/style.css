@@ -132,6 +132,17 @@ br {
     border-radius: 10vh;
 }
 
+#circlee {
+    width:  30vh;
+    height: 30vh;
+    border-radius: 10vh;
+}
+
+#circleB {
+    animation: animBOA4 2s forwards;
+    border-radius: 10vh;
+}
+
 #verde {
     animation: aparecerVERDE 5s forwards;
 }

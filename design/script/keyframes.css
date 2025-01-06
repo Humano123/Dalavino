@@ -138,6 +138,46 @@
         transform: translateY(-550%) translateX(-50%) rotateY(180deg);
     }
 }
+@keyframes animBOA4 {
+    0% {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateY(-550%) translateX(-50%);
+        background-color: rgb(0, 0, 0);
+    }
+    10% {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateY(-550%) translateX(-50%);
+        background-color: rgb(0, 0, 0);
+    }
+    20% {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateY(50%) translateX(-50%) rotateY(90deg);
+        background-color: rgb(0, 0, 0);
+    }
+    30% {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateY(50%) translateX(-50%);
+        background-color: rgb(0, 0, 0);
+    }
+    100% {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        background-color: rgba(0, 128, 0, 0);
+        background-image: url(404.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        transform: translateY(50%) translateX(-50%) rotateY(360deg);
+    }
+}
 
 @keyframes aparecerVERDE {
     0% {

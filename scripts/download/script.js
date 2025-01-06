@@ -20,7 +20,6 @@ function library() {
     const linkL = document.createElement('a');
     
     linkL.href = "library.html";
-    linkL.target = "_blank";
     
     linkL.click()
 }
